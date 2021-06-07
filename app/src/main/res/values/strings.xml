@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeMomsFeed</string>
+    <string name="likes">Likes</string>
+    <string name="children">Children</string>
+    <string name="WoP">WoP</string>
+    <string name="comments">Comments</string>
+</resources>
