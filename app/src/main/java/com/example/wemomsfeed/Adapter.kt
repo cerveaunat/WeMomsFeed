@@ -27,14 +27,6 @@ class DataAdapter () : ListAdapter<WeMomsPostItem, DataAdapter.DataItemViewHolde
 
         init {
             binding = WemomsPostDataBinding.bind(itemView)
-//            binding = WemomsPostDataBinding.bind(itemView).apply {
-//                root.setOnClickListener {
-//                    currentItem?.let {
-//                        onClick(it)
-//                    }
-//                }
-
-//            }
         }
 
         /* Bind post and image. */
