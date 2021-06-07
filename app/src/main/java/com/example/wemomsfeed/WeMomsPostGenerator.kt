@@ -29,8 +29,6 @@ class WeMomsPostGenerator {
         "Commment vous contrôlez votre poids ?"
     )
 
-    private val profilePictureList = listOf(R.drawable.picture1, R.drawable.picture2, R.drawable.picture3)
-
     fun newModels(): List<WeMomsPostItem> {
         val endId = currentId + WINDOW_SIZE
         val result = (currentId until endId).map {
